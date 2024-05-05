@@ -1,0 +1,14 @@
+.logo-box a {
+    font-family: 'Arial', sans-serif; /* Choose a suitable font */
+    font-size: 30px; /* Adjust the font size */
+    font-weight: bold; /* Make the text bold */
+    text-decoration: none; /* Remove underline from the link */
+    background: linear-gradient(to right, var(--tj-theme-primary) 0%, var(--tj-white) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: color 0.3s ease; /* Add transition effect */
+}
+
+.logo-box a:hover {
+    color: #555; /* Change text color on hover */
+}
